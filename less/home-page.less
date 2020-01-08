@@ -9,21 +9,25 @@ header {
         font-style: none;
         color: white;
         margin: 30px;
-    }
-}
+    }//header-words
+}//header
 .top-rectangle {
     display: flex;
+    .top-left-box {
+        margin-top: 10%;
+    }//top-left-box
     .top-right-box{
         display: flex;
         flex-direction: column;
         justify-content: center;
         .button1 {
-            border: 1px solid rgb(64,186,134);
+            border: 2px solid rgb(64,186,134);
             width: 20%;
             padding: 15px;
             font-size: 1.2rem;
             color: rgb(48,180,124);
             border-radius: 5px;
+            margin-top: 5%;
         }//button1
         .first-para {
             font-size: 1.8rem;
@@ -38,11 +42,57 @@ header {
 }// top-rectangle
 .middle-rectangle {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 15% 2%;
+    .middle-left-box{
+        h2{
+            margin-top:3.5%;
+        }//h2
+    }//middle-left-box
+    img {
+       margin: 0 0 10% 30%; 
+    }//img
+    p{
+        font-size: 1.8rem;
+        width: 90%;
+        line-height: 2.5rem;
+        margin-top: 5%;
+    }//p
     h2{
-        font-size: 2rem;
-    }
-}
+        font-size: 2.5rem;
+
+    }// h2
+}//middle-rectangle
 .bottom-rectangle {
     display: flex;
-}
+    justify-content: space-around;
+    .bottom-left-box{
+        margin-left: 10%;
+    .bottom-left-words{
+        width:100%;
+        margin-bottom: 20px;
+        font-weight: 900;
+    }//bottom-left-words
+    h2{
+        font-size: 2.8rem;
+        color:rgb(29,171,111);
+    }//h2
+    p{
+        font-size:1.5rem;
+        width: 50%;
+        line-height: 2rem;
+    }//p
+    .button2{
+        border: 2px solid rgb(64,186,134);
+        width: 20%;
+        padding: 15px;
+        font-size: 1.4rem;
+        color: rgb(48,180,124);
+        border-radius: 5px;
+        margin-top: 20px; 
+    }//button2
+}//bottom-left-box
+    .bottom-right-box {
+        width: 50%;
+    }//bottom-right-box
+}//bottom-rectangle

@@ -16,11 +16,21 @@ nav {
   font-size: 3rem;
   font-style: none;
   color: white;
+  margin-top: 25px;
 }
 nav a {
   color: white;
   font-style: none;
   margin-right: 30px;
+}
+footer {
+  background-color: black;
+}
+footer p {
+  color: white;
+  text-align: center;
+  padding: 2% 0;
+  font-size: 2rem;
 }
 header {
   display: flex;
@@ -33,10 +43,13 @@ header .header-words {
   font-size: 1.5rem;
   font-style: none;
   color: white;
-  margin-left: 30px;
+  margin: 30px;
 }
 .top-rectangle {
   display: flex;
+}
+.top-rectangle .top-left-box {
+  margin-top: 10%;
 }
 .top-rectangle .top-right-box {
   display: flex;
@@ -44,12 +57,13 @@ header .header-words {
   justify-content: center;
 }
 .top-rectangle .top-right-box .button1 {
-  border: 1px solid #40ba86;
+  border: 2px solid #40ba86;
   width: 20%;
   padding: 15px;
   font-size: 1.2rem;
   color: #30b47c;
   border-radius: 5px;
+  margin-top: 5%;
 }
 .top-rectangle .top-right-box .first-para {
   font-size: 1.8rem;
@@ -62,11 +76,54 @@ header .header-words {
 }
 .middle-rectangle {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 15% 2%;
+}
+.middle-rectangle .middle-left-box h2 {
+  margin-top: 3.5%;
+}
+.middle-rectangle img {
+  margin: 0 0 10% 30%;
+}
+.middle-rectangle p {
+  font-size: 1.8rem;
+  width: 90%;
+  line-height: 2.5rem;
+  margin-top: 5%;
 }
 .middle-rectangle h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .bottom-rectangle {
   display: flex;
+  justify-content: space-around;
+}
+.bottom-rectangle .bottom-left-box {
+  margin-left: 10%;
+}
+.bottom-rectangle .bottom-left-box .bottom-left-words {
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.bottom-rectangle .bottom-left-box h2 {
+  font-size: 2.8rem;
+  color: #1dab6f;
+}
+.bottom-rectangle .bottom-left-box p {
+  font-size: 1.5rem;
+  width: 50%;
+  line-height: 2rem;
+}
+.bottom-rectangle .bottom-left-box .button2 {
+  border: 2px solid #40ba86;
+  width: 20%;
+  padding: 15px;
+  font-size: 1.4rem;
+  color: #30b47c;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.bottom-rectangle .bottom-right-box {
+  width: 50%;
 }
