@@ -7,7 +7,6 @@
 }
 html {
   width: 1440px;
-  height: 100%;
   margin: 0 auto;
 }
 nav {
@@ -56,6 +55,15 @@ header .header-words {
   flex-direction: column;
   justify-content: center;
 }
+.top-rectangle .top-right-box h1 {
+  color: #1dab6f;
+  font-size: 3.5rem;
+}
+.top-rectangle .top-right-box .first-para {
+  font-size: 1.8rem;
+  font-family: Roboto;
+  line-height: 3rem;
+}
 .top-rectangle .top-right-box .button1 {
   border: 2px solid #40ba86;
   width: 20%;
@@ -65,14 +73,9 @@ header .header-words {
   border-radius: 5px;
   margin-top: 5%;
 }
-.top-rectangle .top-right-box .first-para {
-  font-size: 1.8rem;
-  font-family: Roboto;
-  line-height: 3rem;
-}
-.top-rectangle .top-right-box .top-header {
-  color: #1dab6f;
-  font-size: 3.5rem;
+.top-rectangle .top-right-box .button1:hover {
+  color: white;
+  background: #30b47c;
 }
 .middle-rectangle {
   display: flex;
@@ -124,6 +127,16 @@ header .header-words {
   border-radius: 5px;
   margin-top: 20px;
 }
+.bottom-rectangle .bottom-left-box .button2:hover {
+  color: white;
+  background: #30b47c;
+}
 .bottom-rectangle .bottom-right-box {
   width: 50%;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20% 0;
 }
