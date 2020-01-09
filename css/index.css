@@ -134,9 +134,92 @@ header .header-words {
 .bottom-rectangle .bottom-right-box {
   width: 50%;
 }
+.about-h1 {
+  font-size: 5rem;
+  margin-top: 10%;
+  text-align: center;
+}
 .team {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20% 0;
+  margin: 10% 0;
+}
+.team-member1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member1 p {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member1 a {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member2 p {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member2 a {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member3 p {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member3 a {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member4 p {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member4 a {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member5 p {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member5 a {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member6 p {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.team-member6 a {
+  font-size: 1.5rem;
+  margin-top: 5%;
 }
