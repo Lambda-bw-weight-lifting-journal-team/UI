@@ -293,6 +293,17 @@ header .header-words {
   justify-content: space-evenly;
   margin: 0;
 }
+.team p {
+  font-size: 1.5rem;
+  margin-top: 5%;
+  color: yellow;
+}
+.team a {
+  font-size: 1.5rem;
+  margin-top: 5%;
+  color: white;
+  padding-bottom: 5%;
+}
 @media (max-width: 500px) {
   .team {
     display: flex;
@@ -336,15 +347,4 @@ header .header-words {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-p {
-  font-size: 1.5rem;
-  margin-top: 5%;
-  color: yellow;
-}
-a {
-  font-size: 1.5rem;
-  margin-top: 5%;
-  color: white;
-  padding-bottom: 5%;
 }
