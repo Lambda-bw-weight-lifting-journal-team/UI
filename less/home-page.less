@@ -186,7 +186,10 @@ header {
 }
 .team{
     .displayFlex();
-    margin: 10% 0;  
+    margin: 10% 0;
+    @media @mobile {
+        .displayColumn();
+    }  
 }
 .team-member1{
     display: flex;
