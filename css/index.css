@@ -17,6 +17,11 @@ nav {
   color: white;
   margin-top: 25px;
 }
+@media (max-width: 500px) {
+  nav {
+    margin-bottom: 25px;
+  }
+}
 nav a {
   color: white;
   font-style: none;
@@ -38,14 +43,33 @@ header {
   font-family: Roboto;
   background-color: #00a35e;
 }
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 header .header-words {
   font-size: 1.5rem;
   font-style: none;
   color: white;
   margin: 30px;
 }
+@media (max-width: 500px) {
+  header .header-words {
+    font-size: 2.5rem;
+  }
+}
 .top-rectangle {
   display: flex;
+}
+@media (max-width: 500px) {
+  .top-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .top-rectangle .top-left-box {
   margin-top: 10%;
@@ -54,6 +78,12 @@ header .header-words {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .top-rectangle .top-right-box {
+    text-align: center;
+    margin: 0 5% 0;
+  }
 }
 .top-rectangle .top-right-box h1 {
   color: #1dab6f;
@@ -73,6 +103,11 @@ header .header-words {
   border-radius: 5px;
   margin-top: 5%;
 }
+@media (max-width: 500px) {
+  .top-rectangle .top-right-box .button1 {
+    width: 100%;
+  }
+}
 .top-rectangle .top-right-box .button1:hover {
   color: white;
   background: #30b47c;
@@ -82,11 +117,54 @@ header .header-words {
   justify-content: space-between;
   margin: 15% 2%;
 }
+@media (max-width: 500px) {
+  .middle-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .middle-rectangle .middle-left-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+}
 .middle-rectangle .middle-left-box h2 {
   margin-top: 3.5%;
 }
+@media (max-width: 500px) {
+  .middle-rectangle .middle-middle-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0 0;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .middle-rectangle .middle-right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0 0;
+    text-align: center;
+  }
+}
 .middle-rectangle img {
   margin: 0 0 10% 30%;
+}
+@media (max-width: 500px) {
+  .middle-rectangle img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
 }
 .middle-rectangle p {
   font-size: 1.8rem;
@@ -97,12 +175,30 @@ header .header-words {
 .middle-rectangle h2 {
   font-size: 2.5rem;
 }
+@media (max-width: 500px) {
+  .middle-rectangle h2 {
+    margin-top: 3%;
+  }
+}
 .bottom-rectangle {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 500px) {
+  .bottom-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .bottom-rectangle .bottom-left-box {
   margin-left: 10%;
+}
+@media (max-width: 500px) {
+  .bottom-rectangle .bottom-left-box {
+    text-align: center;
+    margin: 0 5% 0;
+  }
 }
 .bottom-rectangle .bottom-left-box .bottom-left-words {
   width: 100%;
@@ -113,10 +209,22 @@ header .header-words {
   font-size: 2.8rem;
   color: #1dab6f;
 }
+@media (max-width: 500px) {
+  .bottom-rectangle .bottom-left-box h2 {
+    text-align: center;
+  }
+}
 .bottom-rectangle .bottom-left-box p {
   font-size: 1.5rem;
   width: 50%;
   line-height: 2rem;
+}
+@media (max-width: 500px) {
+  .bottom-rectangle .bottom-left-box p {
+    text-align: center;
+    width: 100%;
+    line-height: 2rem;
+  }
 }
 .bottom-rectangle .bottom-left-box .button2 {
   border: 2px solid #40ba86;
@@ -127,12 +235,22 @@ header .header-words {
   border-radius: 5px;
   margin-top: 20px;
 }
+@media (max-width: 500px) {
+  .bottom-rectangle .bottom-left-box .button2 {
+    width: 100%;
+  }
+}
 .bottom-rectangle .bottom-left-box .button2:hover {
   color: white;
   background: #30b47c;
 }
 .bottom-rectangle .bottom-right-box {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .bottom-rectangle .bottom-right-box {
+    margin-top: 7%;
+  }
 }
 .about-h1 {
   font-size: 5rem;
