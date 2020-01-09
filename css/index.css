@@ -279,7 +279,7 @@ header .header-words {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: auto;
 }
 .about-h1 {
   font-size: 5rem;
