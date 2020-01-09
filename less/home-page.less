@@ -53,6 +53,9 @@ header {
       @media @mobile {
         width: 100%;
       }
+      @media @tablet {
+        width:50%;
+      }
       &:hover {
         color: white;
         background: rgb(48, 180, 124);
@@ -66,6 +69,9 @@ header {
   margin: 15% 2%;
   @media @mobile {
     .displayColumn();
+  }
+  @media @tablet {
+    margin: 7% 5% 0;
   }
   .middle-left-box {
     @media @mobile {
@@ -119,6 +125,9 @@ header {
   @media @mobile {
     .displayColumn();
   }
+  @media @tablet {
+    margin: 7% 7% 0;
+  }
   .bottom-left-box {
     margin-left: 10%;
     @media @mobile {
@@ -158,6 +167,10 @@ header {
       @media @mobile {
         width: 100%;
       }
+      @media @tablet {
+        width:50%;
+        margin-bottom: 5%;
+      }
       &:hover {
         color: white;
         background: rgb(48, 180, 124);
@@ -183,6 +196,11 @@ header {
   margin: 10% 0;
   @media @mobile {
     .displayColumn();
+  }
+  @media @tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 .team-member1 {

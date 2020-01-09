@@ -108,6 +108,11 @@ header .header-words {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .top-rectangle .top-right-box .button1 {
+    width: 50%;
+  }
+}
 .top-rectangle .top-right-box .button1:hover {
   color: white;
   background: #30b47c;
@@ -122,6 +127,11 @@ header .header-words {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .middle-rectangle {
+    margin: 7% 5% 0;
   }
 }
 @media (max-width: 500px) {
@@ -191,6 +201,11 @@ header .header-words {
     align-items: center;
   }
 }
+@media (max-width: 800px) {
+  .bottom-rectangle {
+    margin: 7% 7% 0;
+  }
+}
 .bottom-rectangle .bottom-left-box {
   margin-left: 10%;
 }
@@ -240,6 +255,12 @@ header .header-words {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .bottom-rectangle .bottom-left-box .button2 {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+}
 .bottom-rectangle .bottom-left-box .button2:hover {
   color: white;
   background: #30b47c;
@@ -268,6 +289,13 @@ header .header-words {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 .team-member1 {
