@@ -50,12 +50,13 @@ header {
       color: rgb(48, 180, 124);
       border-radius: 5px;
       margin-top: 5%;
+      @media @tablet {
+        width: 50%;
+      }
       @media @mobile {
         width: 100%;
       }
-      @media @tablet {
-        width:50%;
-      }
+
       &:hover {
         color: white;
         background: rgb(48, 180, 124);
@@ -164,13 +165,14 @@ header {
       color: rgb(48, 180, 124);
       border-radius: 5px;
       margin-top: 20px;
+      @media @tablet {
+        width: 50%;
+        margin-bottom: 5%;
+      }
       @media @mobile {
         width: 100%;
       }
-      @media @tablet {
-        width:50%;
-        margin-bottom: 5%;
-      }
+
       &:hover {
         color: white;
         background: rgb(48, 180, 124);

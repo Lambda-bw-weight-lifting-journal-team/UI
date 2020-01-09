@@ -103,14 +103,14 @@ header .header-words {
   border-radius: 5px;
   margin-top: 5%;
 }
-@media (max-width: 500px) {
-  .top-rectangle .top-right-box .button1 {
-    width: 100%;
-  }
-}
 @media (max-width: 800px) {
   .top-rectangle .top-right-box .button1 {
     width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .top-rectangle .top-right-box .button1 {
+    width: 100%;
   }
 }
 .top-rectangle .top-right-box .button1:hover {
@@ -250,15 +250,15 @@ header .header-words {
   border-radius: 5px;
   margin-top: 20px;
 }
-@media (max-width: 500px) {
-  .bottom-rectangle .bottom-left-box .button2 {
-    width: 100%;
-  }
-}
 @media (max-width: 800px) {
   .bottom-rectangle .bottom-left-box .button2 {
     width: 50%;
     margin-bottom: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .bottom-rectangle .bottom-left-box .button2 {
+    width: 100%;
   }
 }
 .bottom-rectangle .bottom-left-box .button2:hover {
