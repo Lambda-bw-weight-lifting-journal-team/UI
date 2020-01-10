@@ -26,6 +26,7 @@ nav a {
   color: white;
   font-style: none;
   margin-right: 30px;
+  text-decoration: none;
 }
 footer {
   background-color: black;
@@ -51,7 +52,7 @@ header {
   }
 }
 header .header-words {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-style: none;
   color: white;
   margin: 30px;
@@ -274,7 +275,7 @@ header .header-words {
   }
 }
 .about-container {
-  background-image: url(../images/weights-background.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/weights-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -283,7 +284,6 @@ header .header-words {
 }
 .about-h1 {
   font-size: 5rem;
-  color: yellow;
   text-align: center;
   padding: 5% 0;
 }
@@ -294,15 +294,18 @@ header .header-words {
   margin: 0;
 }
 .team p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 5%;
-  color: yellow;
+  font-weight: 1000;
 }
 .team a {
   font-size: 1.5rem;
   margin-top: 5%;
   color: white;
   padding-bottom: 5%;
+}
+.team img {
+  border-radius: 8px;
 }
 @media (max-width: 500px) {
   .team {
