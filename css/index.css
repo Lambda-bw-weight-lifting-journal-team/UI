@@ -8,6 +8,7 @@
 html {
   width: 1440px;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
 }
 nav {
   display: flex;
