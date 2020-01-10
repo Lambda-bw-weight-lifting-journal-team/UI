@@ -120,6 +120,7 @@ header .header-words {
 @media (max-width: 500px) {
   .top-rectangle .top-right-box .button1 {
     width: 100%;
+    font-size: 2rem;
   }
 }
 .top-rectangle .top-right-box .button1:hover {
@@ -268,6 +269,7 @@ header .header-words {
 @media (max-width: 500px) {
   .bottom-rectangle .bottom-left-box .button2 {
     width: 100%;
+    font-size: 2rem;
   }
 }
 .bottom-rectangle .bottom-left-box .button2:hover {
