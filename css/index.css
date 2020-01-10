@@ -126,6 +126,7 @@ header .header-words {
 .top-rectangle .top-right-box .button1:hover {
   color: white;
   background: #30b47c;
+  transition: all 0.3s ease-in;
 }
 .middle-rectangle {
   display: flex;
@@ -275,6 +276,7 @@ header .header-words {
 .bottom-rectangle .bottom-left-box .button2:hover {
   color: white;
   background: #30b47c;
+  transition: all 0.3s ease-in;
 }
 .bottom-rectangle .bottom-right-box {
   width: 50%;
